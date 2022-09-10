@@ -11,7 +11,7 @@ local keybinds = {
     [9] =  {label = "S'accroupir", keybind = "CTRL"},
 }
 
-function openHelpMenu()
+local function openHelpMenu()
     if (active) then
         return
     end    
